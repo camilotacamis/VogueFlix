@@ -1,0 +1,68 @@
+body{
+    background: pink;
+    color: white;
+    margin: 50px;
+    font-family: "Prociono", serif;
+}
+header{
+    border-bottom: solid 2px black;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.text {
+        margin-right: 15%;
+    
+}
+
+.video{
+    margin-top: 20px;
+}
+
+
+h1 {
+    font-size: 45px;
+    margin-right: 25%;
+}
+
+p {
+    font-size: 25px;
+    
+}
+
+img {
+    height: 150px;
+    border-radius: 3%;
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+ 
+.filmes e series {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.destaque{
+    background: #ffdde2;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.videos img{
+  opacity: 0,5;
+}
+
+.videos img:hover {
+opacity: 1;
+border: 3px solid #fff;
+}
